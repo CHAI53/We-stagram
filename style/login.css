@@ -1,0 +1,49 @@
+.bigBox {
+  border: 2px solid rgb(242, 238, 237);
+  padding: 10px auto;
+  margin: 30px auto;
+  text-align: center;
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.inputArea {
+  width: 75%;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo{
+  width: 50%;
+  margin: 30px auto;
+  padding: 20px auto;
+}
+
+#user, #pswd {
+  height: 40px;
+  background-color: rgba(233, 244, 247, 70);
+  margin: 15px auto;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.login-btn{
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgba(171, 196, 217, 95);
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 15px auto;
+}
+
+.findPwd {
+  margin-top: 20px;
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}

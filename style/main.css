@@ -1,0 +1,328 @@
+* {
+  background-color: rgb(248, 245, 247);
+}
+
+.bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  background-color: white;
+}
+
+.barLeft {
+  margin-left: 200px;
+  margin-right: -100px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.picture {
+  width: 40px;
+  border-right: 1px solid black;
+  padding-right: 10px;
+  background-color: white;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 10px;
+  padding-top: 5px;
+  background-color: white;
+}
+
+.barCenter {
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.search {
+  width: 200px;
+  color: whitesmoke;
+  border-radius: 3px;
+  font-size: 13px;
+  text-align: center;
+  margin-top:10px;
+  margin-left: 50px;
+}
+
+.magnifying {
+  width: 20px;
+}
+
+.barRight {
+  margin-right: 240px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.explorer, .love, .mypage {
+  width: 25px;
+  margin-left: 25px;
+  background-color: white;
+}
+
+.main {  
+  margin-top: 150px;
+}
+
+.feeds { 
+  width: 42%; 
+  height: 100%;
+  margin-left: 230px;
+  float: left;
+}
+
+.article1 {
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.mainFeed {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mainProfile {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.mainWho {
+  font-size: 13px;
+  margin-right: 400px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.mainMenu {
+  width: 20px;
+  margin-left: 35px;
+}
+
+.mainPicture {
+  width: 100%;
+}
+
+.redHeart, .bubble, .bookmark {
+  width: 25px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.upload {
+  width: 25px;
+  margin-top: 5px;
+  margin-right: 420px;
+}
+
+.like {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.divLike {
+  display: inline-block;
+}
+
+.likeIcon {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.likeSentence {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.mentions {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 13px;
+}
+
+.mention1, .mention2, .mention3 {
+  margin-left: -30px;
+}
+
+.mentionId1, .mentionId2, .mentionId3 {
+  font-weight: bold;
+}
+
+.mentionSays1, .mentionSays2, .mentionSays3 {
+
+}
+
+.iLike {
+  width: 15px;
+  margin-left: 350px;
+}
+
+.comments {
+  border: 1px solid rgb(224, 224, 224);
+  color: rgb(122, 121, 121);
+  font-size: 13px;
+}
+
+.posting {
+  color: rgb(199, 217, 245);
+  margin-left: 250px;
+}
+
+.main-right {
+  width: 28%;
+  margin-left: 60%;
+}
+
+.right1 {
+  width: 70%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.profilePicture {
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.profileTitle {
+  margin-left: 10px;
+}
+
+.profileName {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.profileExplain {
+  font-size: 12px;
+  color: rgb(122, 121, 121);
+}
+
+.rigtht2 {
+  border: 1px solid black;
+  width: 70%;
+}
+
+.right22 {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.story {
+  color: rgb(122, 121, 121);
+  font-size: 13px;
+  margin-left: -110px;
+}
+
+.allView {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: -100px;
+}
+
+.stories {
+  list-style: none;
+  margin-left: -35px;
+}
+
+.storyPic1, .storyPic2, .storyPic3 {
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.storyWho1, .storyWho2, .storyWho3 {
+  display: inline-block;
+  }
+
+.storyId1, .storyId2, .storyId3 {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.storyTime1, .storyTime2, .storyTime3 {
+  font-size: 10px;
+  color:   rgb(122, 121, 121);
+}
+
+.right3 {
+  border: 1px solid black;
+  width: 70%;
+}
+
+.right32 {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.forYou {
+  color: rgb(122, 121, 121);
+  font-size: 13px;
+  margin-left: -40px;
+}
+
+.allView2 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: -2d0px;
+}
+
+.recommends {
+  list-style: none;
+  margin-left: -35px;
+}
+
+.recomPic1, .recomPic2, .recomPic3 {
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.recomWho1, .recomWho2, .recomWho3 {
+  display: inline-block;
+  }
+
+.recomId1, .recomId2, .recomId3 {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.recomNum1, .recomNum2, .recomNum3 {
+  font-size: 10px;
+  color:   rgb(122, 121, 121);
+}
+
+.follow {
+  font-size: 13px;
+  color: rgb(18, 123, 165)
+}
+
+.right4 {
+  width: 70%;
+  font-size: 13px;
+  color:   rgb(122, 121, 121);
+}
