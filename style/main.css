@@ -37,9 +37,10 @@
 
 .barCenter {
   margin: 5px auto;
+  background-color: white;
+  position: relative;
   display: flex;
   align-items: center;
-  background-color: white;
 }
 
 .search {
@@ -48,12 +49,14 @@
   border-radius: 3px;
   font-size: 13px;
   text-align: center;
-  margin-top:10px;
   margin-left: 50px;
 }
 
 .magnifying {
-  width: 20px;
+  width: 15px;
+  position: absolute;
+  top: 6px;
+  left: 115px;
 }
 
 .barRight {
@@ -86,8 +89,8 @@
 .mainFeed {
   display: flex;
   align-items: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .mainProfile {
@@ -152,48 +155,54 @@
   flex-direction: column;
   align-items: flex-start;
   font-size: 13px;
-}
-
-.mention1, .mention2, .mention3 {
   margin-left: -30px;
 }
 
-.mentionId1, .mentionId2, .mentionId3 {
+.mentionId {
   font-weight: bold;
-}
-
-.mentionSays1, .mentionSays2, .mentionSays3 {
-
 }
 
 .iLike {
   width: 15px;
-  margin-left: 350px;
+  margin-left: 400px;
 }
 
 .comments {
   border: 1px solid rgb(224, 224, 224);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#makingCom {
   color: rgb(122, 121, 121);
-  font-size: 13px;
+  font-size: 15px;
+  margin-left: 10px;
+  border: 0;
+  outline: 0;
 }
 
 .posting {
-  color: rgb(199, 217, 245);
-  margin-left: 250px;
+  color: rgb(158, 190, 241);
+  font-size: 15px;
+  margin-left: 350px;
+  border: none;
+  background: transparent;
 }
+
+
 
 .main-right {
   width: 28%;
-  margin-left: 60%;
+  margin-left: 62%;
 }
 
 .right1 {
-  width: 70%;
+  width: 80%;
   font-size: 15px;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  border: 1px solid black;
 }
 
 .profilePicture {
@@ -216,9 +225,10 @@
   color: rgb(122, 121, 121);
 }
 
-.rigtht2 {
-  border: 1px solid black;
-  width: 70%;
+.right2 {
+  border: 1px solid rgb(224, 224, 224);
+  width: 80%;
+  margin-bottom: 5px;
 }
 
 .right22 {
@@ -226,23 +236,23 @@
   display: flex;
   justify-content: space-around;
   margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .story {
   color: rgb(122, 121, 121);
   font-size: 13px;
-  margin-left: -110px;
 }
 
 .allView {
   font-size: 13px;
   font-weight: bold;
-  margin-left: -100px;
 }
 
-.stories {
-  list-style: none;
-  margin-left: -35px;
+.stories1, .stories2, .stories3 {
+  margin-left: 10px;
+  width: 80%;
 }
 
 .storyPic1, .storyPic2, .storyPic3 {
@@ -267,20 +277,23 @@
 }
 
 .right3 {
-  border: 1px solid black;
-  width: 70%;
+  border: 1px solid rgb(224, 224, 224);
+  width: 80%;
 }
 
 .right32 {
   font-size: 13px;
   display: flex;
   justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .forYou {
   color: rgb(122, 121, 121);
   font-size: 13px;
-  margin-left: -40px;
+  margin-left: -20px;
 }
 
 .allView2 {
@@ -289,9 +302,9 @@
   margin-left: -2d0px;
 }
 
-.recommends {
-  list-style: none;
-  margin-left: -35px;
+.recommends1, .recommends2, .recommends3 {
+  margin-left: 10px;
+  width: 80%;
 }
 
 .recomPic1, .recomPic2, .recomPic3 {
@@ -316,13 +329,18 @@
   color:   rgb(122, 121, 121);
 }
 
+.recomNum1 {
+  margin-right: 45px;
+}
+
 .follow {
   font-size: 13px;
   color: rgb(18, 123, 165)
 }
 
 .right4 {
-  width: 70%;
+  width: 80%;
   font-size: 13px;
   color:   rgb(122, 121, 121);
+  margin-top: 10px;
 }

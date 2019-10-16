@@ -1,7 +1,7 @@
 .bigBox {
   border: 2px solid rgb(242, 238, 237);
   padding: 10px auto;
-  margin: 30px auto;
+  margin: 40px auto;
   text-align: center;
   width: 500px;
   height: 600px;
@@ -12,32 +12,34 @@
 .inputArea {
   width: 75%;
   text-align: center;
-  margin: 15px auto;
+  margin: 20px auto;
 }
 
 .logo{
   width: 50%;
-  margin: 30px auto;
+  margin: 40px auto;
   padding: 20px auto;
 }
 
 #user, #pswd {
   height: 40px;
-  background-color: rgba(233, 244, 247, 70);
+  background-color: rgba(233, 244, 247, 0.7);
   margin: 15px auto;
   border-radius: 3px;
   font-weight: bold;
   font-size: 15px;
+  padding-left: 10px;
 }
 
 .login-btn{
   height: 40px;
   border-radius: 3px;
-  background-color: rgba(171, 196, 217, 95);
+  background-color: rgba(83, 171, 243, 0.5);
   color: whitesmoke;
   font-size: 15px;
   font-weight: bold;
   margin: 15px auto;
+  width: 95%;
 }
 
 .findPwd {
