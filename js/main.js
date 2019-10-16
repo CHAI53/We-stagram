@@ -1,17 +1,16 @@
-let postingBtn = document.getElementsByClassName('posting');
-let mentions = document.querySelector('.mentions');
-let element1 = document.createElement('li');
-let element2 = document.createElement('span');
-let element3 = document.createElement('span');
-let makingCom = document.getElementsById('makingCom');
+let postingBtn = document.querySelector('.posting');
+let newMention = document.querySelector('.newMention');
+let makingCom = document.querySelector('#makingCom');
 
-postingBtn[0].addEventListener('click', makingNew1);
-
-function makingNew1() {
-    element2.innerHTML = 'rovvxhyo';
+postingBtn.onclick = function () {
+    let makingComv = makingCom.value;
+    let element1 = document.createElement('div');
+    let element2 = document.createElement('span');
+    element2.innerHTML = 'rovvxhyo' + '&nbsp';
     element2.style.fontWeight = 'bold';
-    element3.innerHTML = makingCom.value;
-    mentions.appendChild(element1);
+    let element3 = document.createElement('span');
+    element3.innerHTML = makingComv;
+    newMention.appendChild(element1)
     element1.appendChild(element2);
     element1.appendChild(element3);
-}
+};
